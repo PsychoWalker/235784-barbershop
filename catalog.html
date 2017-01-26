@@ -32,39 +32,42 @@
       </div>
     </header>
 	<main>
-		<h1>Средства для ухода</h1>
+		<h1 class="main-title">Средства для ухода</h1>
 
-		<div class="breadcrumbs">
-			<a href="#">Главная</a>
-			<a href="#">Магазин</a>
-			<a href="#">Средства для ухода</a>
-		</div>
-
-		Производители:
-		<ul>
-			<li><input type="checkbox" name="checkbox-baxter">Baxter of California</li>
-			<li><input type="checkbox" name="checkbox-natty">Mr Natty</li>
-			<li><input type="checkbox" name="checkbox-suavecito">Suavecito</li>
-			<li><input type="checkbox" name="checkbox-malin">Malin+Goetz</li>
-			<li><input type="checkbox" name="checkbox-murray">Murray's</li>
-			<li><input type="checkbox" name="checkbox-american">American Crew</li>
+		<ul class="breadcrumbs">
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Магазин</a></li>
+			<li><a href="#">Средства для ухода</a></li>
 		</ul>
 
-		<article class="product-group"> <!---Стоит ли тут поставить див? -->
-		Группы товаров:
-			<label for="rbd">
-			<input type="radio" name="radio" id="rbd">Бритвенные принадлежности
-			</label>
-			<label for="rc">
-			<input type="radio" name="radio" id="rc">Средства для ухода
-			</label>
-			<label for="ra">
-			<input type="radio" name="radio" id="ra">Аксессуары
-			</label>
-		</article>
+		<div class="catalog-filters">
+			<span class="input-label">Производители:</span>
+			<ul class="select-label">
+				<li><input type="checkbox" name="baxter"><label for="baxter">Baxter of California</label></li>
+				<li><input type="checkbox" name="natty"><label for="natty">Mr Natty</label></li>
+				<li><input type="checkbox" name="suavecito"><label for="suavecito">Suavecito</label></li>
+				<li><input type="checkbox" name="malin"><label for="malin">Malin+Goetz</label></li>
+				<li><input type="checkbox" name="murray"><label for="murray">Murray's</label></li>
+				<li><input type="checkbox" name="american"><label for="american">American Crew</label></li>
+			</ul>
 
-		<section class="product-menu">
-			<div class="product"> <!-- Нет возможности приобрести несколько товаров одного типа -->
+		<div class="catalog-goods">
+			<div class="product-group"> 
+			<span class="input-label">Группы товаров:</span>
+				<label for="rbd">
+				<input type="radio" name="radio" id="rbd">Бритвенные принадлежности
+				</label>
+				<label for="rc">
+				<input type="radio" name="radio" id="rc">Средства для ухода
+				</label>
+				<label for="ra">
+				<input type="radio" name="radio" id="ra">Аксессуары
+				</label>
+			</div>
+		</div>
+
+		<section class="product-side">
+			<div class="product"> 
 				<img src="http://placehold.it/150x100" alt="Набор для путешествий" width="150" height="100">
 				<p>Набор для путешествий «Baxter of California»</p>
 				<span>2 900 руб.</span>
@@ -105,11 +108,15 @@
 				<span>3 900 руб.</span>
 				<a href="#" class="btn">Купить</a>
 			</div>
-			<a href="#">1</a>
-			<a href="#">2</a>
-			<a href="#">3</a>
-			<a href="#">4</a>
 		</section>
+		<div class="paginator">
+			<ul class="paginator-block">
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+			</ul>
+		</div>
 	</main>
 
 	 <footer class="main-footer">
