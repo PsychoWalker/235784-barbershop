@@ -5,32 +5,32 @@
     <title>Барбершоп «Бородинский»</title>
   </head>
   <body>
-	<header class = "main-header">
-		<div class = "container">
-			<nav class="main-navigation">
-				<ul>
-					<li>
-						<a href="#">Информация</a>
-					</li>
-					<li>
-						<a href="#">Новости</a>
-					</li>
-					<li>
-						<a href="#">Прайс-лист</a>
-					</li>
-					<li>
-						<a href="#">Магазины</a>
-					</li>
-					<li>
-						<a href="#">Контакты</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="user-block">
-				<a href="#">Вход</a>
-			</div>
-		</div> 
-	</header>
+	 <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
 	<main>
 		<h1>Средства для ухода</h1>
 
@@ -53,13 +53,13 @@
 		<article class="product-group"> <!---Стоит ли тут поставить див? -->
 		Группы товаров:
 			<label for="rbd">
-			<input type="radio" name="radio-blade-device" id="rbd">Бритвенные принадлежности
+			<input type="radio" name="radio" id="rbd">Бритвенные принадлежности
 			</label>
 			<label for="rc">
-			<input type="radio" name="radio-care" id="rc">Средства для ухода
+			<input type="radio" name="radio" id="rc">Средства для ухода
 			</label>
 			<label for="ra">
-			<input type="radio" name="radio-accessories" id="ra">Аксессуары
+			<input type="radio" name="radio" id="ra">Аксессуары
 			</label>
 		</article>
 
@@ -112,26 +112,25 @@
 		</section>
 	</main>
 
-	<footer>
-		<div class="main-contacts">
-			<h2 class="content-column-title">Контактная информация</h2>
-			<p>
-				Барбершоп «Бородинский»<br>
-				Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-				<a href="#" class = "btn">Как нас найти?</a><br>
-				Телефон: +7 (495) 666-02-66
-			</p>
-		</div>
-		<div class="social">
-			<span>Двайте Дружить!</span>
-			<a href="#">Вконтакте</a>
-			<a href="#">Facebook</a>
-			<a href="#">Twitter</a>	
-		</div>
-		<div class="developer">
-			<span>Разработано:</span>
-			<a href="#">htmlacademy.ru</a>
-		</div>
-	</footer>
+	 <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
 </body>
 </html>
