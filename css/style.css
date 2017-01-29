@@ -1,0 +1,19 @@
+body {
+
+}
+
+h2 {
+	font-size: 30pt;
+	line-height: 42pt;
+	color: #000000;
+	font-weight: bold;
+	font-family: PT Sans Narrow Bold, sans-serif;
+}
+
+b {
+	font-size: 30pt;
+	line-height: 42pt;
+	color: #f7f4f1;
+	font-weight: bold;
+	font-family: PT Sans Narrow Bold, sans-serif;
+}
