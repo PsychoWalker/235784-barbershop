@@ -1,7 +1,7 @@
 body {
 	font-size: 24pt;
 	color: #000000;
-	font-family: PT Sans Narrow Bold, sans-serif;
+	font-family: "PT Sans Narrow Bold", Arial, sans-serif;
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
 	line-height: 42pt;
 	color: #000000;
 	font-weight: bold;
-	font-family: PT Sans Narrow Bold, sans-serif;
+	font-family: "PT Sans Narrow Bold", Arial, sans-serif;
 }
 
 b {
@@ -17,7 +17,7 @@ b {
 	line-height: 42pt;
 	color: #f7f4f1;
 	font-weight: bold;
-	font-family: PT Sans Narrow Bold, sans-serif;
+	font-family: "PT Sans Narrow Bold", Arial, sans-serif;
 }
 
 h2 {
@@ -25,6 +25,5 @@ h2 {
 	line-height: 42pt;
 	color: #f7f4f1;
 	font-weight: bold;
-	font-family: PT Sans Narrow Bold, sans-serif;
-}
+	font-family: "PT Sans Narrow Bold", Arial, sans-serif;
 }
