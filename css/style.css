@@ -198,3 +198,11 @@ h2 {
 	font-size: 14px;
 	padding: 0px;
 }
+
+.product-container-item {
+	width: 460px;
+}
+
+.gallery-item {
+	display: inline-block;
+}
