@@ -203,6 +203,7 @@ h2 {
 	width: 940px;
 	margin-left: 130px;
 	font-size: 0px;
+	margin-bottom: 50px;
 }
 
 .gallery-item {
@@ -211,6 +212,7 @@ h2 {
 	font-size: 0px;
 	vertical-align: top;
 	margin-right: 80px;
+	margin-bottom: 50px;
 }
 
 .gallery-item > img {
@@ -231,7 +233,7 @@ h2 {
 
 .container-item {
 	width: 1200px;
-	margin: 130px auto;
+	margin: auto 130px;
  	padding: 0 10px;
   	background-color: grey;
   	padding: 0px;
@@ -256,3 +258,12 @@ h2 {
 	margin-bottom: 20px;
 	margin-left: 130px;
 }
+
+
+
+.main-footer-item {
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
