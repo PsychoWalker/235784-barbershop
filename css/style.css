@@ -233,7 +233,7 @@ h2 {
 
 .container-item {
 	width: 1200px;
-	margin: auto 130px;
+	margin: auto ;
  	padding: 0 10px;
   	background-color: grey;
   	padding: 0px;
