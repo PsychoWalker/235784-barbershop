@@ -11,6 +11,10 @@ body {
 	background-color: brown;
 }
 
+body {
+	padding: 60px 0 40px;
+}
+
 h1 {
 	font-size: 30px;
 	line-height: 30px;
@@ -39,11 +43,12 @@ h2 {
   margin: 0 auto;
   padding: 0 10px;
   background-color: grey;
+	overflow: hidden;
   
 }
 
-.main-header {
-  margin-bottom: 60px;
+.main-header .container {
+
 }
 
 .main-navigation {
@@ -101,9 +106,7 @@ h2 {
 }
 
 .main-footer {
-  margin-top: 65px;
   padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 .footer-contacts {
@@ -135,6 +138,7 @@ h2 {
 .catalog-form-fieldset {
 	padding: 0px;
 	margin: 0px;
+	background-color: maroon;
 }
 
 .catalog-form-headline {
@@ -147,15 +151,12 @@ h2 {
 }
 
 .main-title {
-	display: inline-block;
 	margin-top: 60px;
 	margin-bottom: 20px;
-	padding-left: 10px;
 }
 
 .product-container {
 	float: right;
-	width: 700px;
 	font-size: 0px;
 }
 
@@ -188,8 +189,8 @@ h2 {
 
 .breadcrumbs {
 	margin: 0;
-	padding-left: 10px;
 	margin-bottom: 60px;
+	padding: 0;
 }
 
 .paginator {
@@ -197,13 +198,6 @@ h2 {
 	margin-bottom: 50px;
 	font-size: 14px;
 	padding: 0px;
-}
-
-.product-container-item {
-	width: 940px;
-	margin-left: 130px;
-	font-size: 0px;
-	margin-bottom: 50px;
 }
 
 .gallery-item {
@@ -229,42 +223,6 @@ h2 {
 	width: 400px;
 	vertical-align: top;
 	font-size: 14px;
-}
-
-.container-item {
-	width: 1200px;
-	margin: auto ;
- 	padding: 0 10px;
-  	background-color: grey;
-  	padding: 0px;
-}
-
-
-.breadcrumbs-item li {
-	display: inline;
-	margin-right: 5px;
-	
-}
-
-.breadcrumbs-item {
-	margin-left: 130px;
-	padding-left: 0px;
-	margin-bottom: 60px;
-}
-
-.main-title-item {
-	display: inline-block;
-	margin-top: 60px;
-	margin-bottom: 20px;
-	margin-left: 130px;
-}
-
-
-
-.main-footer-item {
-  margin-top: 0px;
-  padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 .wrap-container {
