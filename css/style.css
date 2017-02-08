@@ -267,3 +267,6 @@ h2 {
   padding-bottom: 40px;
 }
 
+.wrap-container {
+	clear: both;
+}
