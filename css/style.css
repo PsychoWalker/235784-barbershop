@@ -158,6 +158,7 @@ h2 {
 .product-container {
 	float: right;
 	font-size: 0px;
+	width: 700px
 }
 
 .product-headline {
