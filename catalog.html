@@ -46,7 +46,7 @@
     <ul class="breadcrumbs">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Магазин</a></li>
-        <li><a href="#">Средства для ухода</a></li>
+        <li><span class="last-disable-link">Средства для ухода</span></li>
     </ul>
 
     <div class="wrap-container">
@@ -56,22 +56,22 @@
                     <span class="catalog-form-headline">Производители:</span>
                     <ul class="catalog-form-list">
                         <li><input type="checkbox" name="baxter"
-                                   id="baxter"><label for="baxter">Baxter of
+                                   id="baxter" checked hidden><label for="baxter">Baxter of
                             California</label></li>
                         <li><input type="checkbox" name="natty"
-                                   id="natty"><label for="natty">Mr
+                                   id="natty" hidden><label for="natty">Mr
                             Natty</label></li>
                         <li><input type="checkbox" name="suavecito"
-                                   id="suavecito"><label for="suavecito">Suavecito</label>
+                                   id="suavecito" checked hidden><label for="suavecito">Suavecito</label>
                         </li>
                         <li><input type="checkbox" name="malin"
-                                   id="malin"><label
+                                   id="malin" hidden><label
                                 for="malin">Malin+Goetz</label></li>
                         <li><input type="checkbox" name="murray"
-                                   id="murray"><label
-                                for="murray">Murray's</label></li>
+                                   id="murray" hidden><label
+                                for="murray"><span></span>Murray's</label></li>
                         <li><input type="checkbox" name="american"
-                                   id="american"><label for="american">American
+                                   id="american" checked hidden><label for="american">American
                             Crew</label></li>
                     </ul>
                 </div>
@@ -82,14 +82,14 @@
                     <ul class="catalog-form-list">
                         <li><input type="radio" name="radio" id="rbd"><label
                                 for="rbd">Бритвенные принадлежности</label></li>
-                        <li><input type="radio" name="radio" id="rc"><label
+                        <li><input type="radio" name="radio" id="rc" checked=""><label
                                 for="rc">Средства для ухода</label></li>
                         <li><input type="radio" name="radio" id="ra"><label
                                 for="ra">Аксессуары</label></li>
                     </ul>
                 </div>
 
-                <button type="submit" class="catalog-form-button">Показать
+                <button type="submit" class="btn">Показать
                 </button>
 
             </form>
@@ -160,7 +160,7 @@
             </ul>
         </div>
 
-
+        <div class="clearfix"></div>    
     </div>
 
 
